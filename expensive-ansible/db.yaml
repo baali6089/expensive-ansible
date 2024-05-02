@@ -2,7 +2,7 @@
   hosts: db
   become: yes
   vars: 
-    login_hosts: 
+    login_hosts: db.harish.fun
   vars_prompt:
   - name: mysql_root_password
     prompt: please enter mysql root password
