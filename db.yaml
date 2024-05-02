@@ -3,7 +3,7 @@
   hosts: db
   become: yes
   vars:
-    login_hosts: db.harish.fun
+    login_host: db.harish.fun
   vars_prompt:
     - name: mysql_root_password
       prompt: please enter mysql root password
