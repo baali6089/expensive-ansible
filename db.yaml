@@ -5,9 +5,9 @@
   vars:
     login_host: db.harish.fun
   vars_prompt:
-    - name: mysql_root_password
-      prompt: please enter mysql root password
-      private: no
+  - name: mysql_root_password
+    prompt: please enter MySQL root password
+    private: no
   tasks:
     - name: install mysql server
       ansible.builtin.dnf:
