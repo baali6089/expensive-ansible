@@ -1,6 +1,6 @@
 - name: configure backend server
   become: yes
-  hosts: web
+  hosts: backend
   vars:
     login_host: db.harish.fun
     login_password: ExpenseApp@1
